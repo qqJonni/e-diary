@@ -76,6 +76,7 @@ class Lesson(models.Model):
         return f'{self.subject.title} {self.year_of_study}{self.group_letter}'
 
 
+
 class Mark(models.Model):
     """Оценка, поставленная учителем ученику."""
     points = models.IntegerField('оценка')
