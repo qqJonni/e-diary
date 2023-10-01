@@ -46,6 +46,19 @@
 - `ALLOWED_HOSTS` — см [документацию Django](https://docs.djangoproject.com/en/3.1/ref/settings/#allowed-hosts).
 - `DATABASE_NAME` — путь до базы данных, например: `schoolbase.sqlite3`
 
+## Использование функций
+
+В проекте имеются три функции: remove_chastisements, create_commendation, found_schoolkid
+
+Чтобы воспользоваться ими, необходимо в терминале выполнить команду python manage.py shell.
+Импортировать неоьходимые классы моделей, саму функцию и вызвать её.
+
+remove_chastisements - удаляет замечания о ученике
+
+create_commendation - создаёт похвалу для ученика
+
+found_schoolkid - ищет ученика и проверяет его имя на уникальность
+
 ## Цели проекта
 
 Код написан в учебных целях — это урок в курсе по Python и веб-разработке на сайте [Devman](https://dvmn.org).

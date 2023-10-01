@@ -9,5 +9,5 @@ def add_commendation(text, created, schoolkid, subject, teacher):
                                 teacher=Teacher.objects.filter(full_name=f'{teacher}')[0])
 
 
-if __name__ == '__main__':
-    add_commendation('Молодец!', '2018-10-02', 'Фролов Иван Григорьевич', 'Музыка', 'Селезнева Майя Макаровна')
+# if __name__ == '__main__':
+#     add_commendation('Молодец!', '2018-10-02', 'Фролов Иван Григорьевич', 'Музыка', 'Селезнева Майя Макаровна')
